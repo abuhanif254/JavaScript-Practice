@@ -49,3 +49,6 @@ function divideNumbers(num1, num2){
 };
 
 console.log(divideNumbers(100,10));
+
+
+ 
