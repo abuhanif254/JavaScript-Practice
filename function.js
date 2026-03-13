@@ -33,3 +33,11 @@ function subtractNumbers(num1, num2){
 };
 
 console.log(subtractNumbers(100,50));
+
+// multiply two values
+
+function multiplyNumbers(num1, num2){
+    return num1 * num2;
+};
+
+console.log(multiplyNumbers(10,10));
