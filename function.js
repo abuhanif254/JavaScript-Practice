@@ -15,3 +15,14 @@ function greetUser(name){
 
 greetUser('MD Abu Hanif Mia')
 
+// parameters and return value
+// make function to add two values
+
+function addNumber(num1, num2){
+    return num1 + num2;
+
+};
+
+console.log(addNumber(10,10));
+
+
