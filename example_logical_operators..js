@@ -1,3 +1,5 @@
+// practical example of combining logical operators
+
 const isProMembership = true;
 const isLoggedIn = true;
 
@@ -9,3 +11,4 @@ if((isProMembership && isLoggedIn) || hasAccessCode){
 }else{
     console.log('access denied! please buy membership or course')
 };
+
