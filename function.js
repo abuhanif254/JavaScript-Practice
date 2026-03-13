@@ -41,3 +41,11 @@ function multiplyNumbers(num1, num2){
 };
 
 console.log(multiplyNumbers(10,10));
+
+// divide two values
+
+function divideNumbers(num1, num2){
+    return num1 / num2;
+};
+
+console.log(divideNumbers(100,10));
