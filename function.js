@@ -7,3 +7,11 @@ function greet(){
 greet();
 
 
+// function with parameter
+
+function greetUser(name){
+    console.log(`hello ${name}  how can i help you?`)
+};
+
+greetUser('MD Abu Hanif Mia')
+
