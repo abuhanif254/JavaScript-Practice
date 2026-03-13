@@ -26,3 +26,10 @@ function addNumber(num1, num2){
 console.log(addNumber(10,10));
 
 
+// subtract two values
+
+function subtractNumbers(num1, num2){
+    return num1 - num2;
+};
+
+console.log(subtractNumbers(100,50));
