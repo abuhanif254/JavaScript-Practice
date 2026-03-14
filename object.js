@@ -71,3 +71,14 @@ console.log(person);
 console.log(person.name);
 console.log(person.age);
 console.log(person.address.city);
+
+// use this keyword in object method
+const employee = {
+    name: 'Abu Hanif',
+    age: 27,
+    greet: function(){
+        console.log(`Hello, my name is ${this.name} and i am ${this.age} years old.`);
+    }
+};
+employee.greet();
+
